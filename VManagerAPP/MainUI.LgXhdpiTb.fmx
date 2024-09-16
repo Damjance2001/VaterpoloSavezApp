@@ -1,0 +1,578 @@
+inherited Form1_LgXhdpiTb: TForm1_LgXhdpiTb
+  ClientHeight = 829
+  ClientWidth = 480
+  DesignerMasterStyle = 0
+  inherited BackgroundController: TPanel
+    Size.Width = 480.000000000000000000
+    Size.Height = 829.000000000000000000
+    inherited Panel1: TPanel
+      Size.Width = 480.000000000000000000
+      Size.Height = 829.000000000000000000
+      inherited Rectangle43: TRectangle
+        Size.Width = 480.000000000000000000
+        Size.Height = 829.000000000000000000
+      end
+      inherited Rectangle41: TRectangle
+        Position.Y = 329.000000000000000000
+        Size.Width = 480.000000000000000000
+      end
+      inherited Rectangle42: TRectangle
+        Corners = [TopRight, BottomLeft, BottomRight]
+        Position.Y = 529.000000000000000000
+        Size.Width = 480.000000000000000000
+      end
+    end
+    inherited Panel2: TPanel
+      inherited Rectangle3: TRectangle
+        Position.Y = 300.000000000000000000
+      end
+      inherited Rectangle2: TRectangle
+        Position.Y = 175.000000000000000000
+      end
+    end
+  end
+  inherited PageController: TLayout
+    Size.Width = 480.000000000000000000
+    Size.Height = 829.000000000000000000
+    inherited Controller_Back: TLayout
+      Size.Width = 480.000000000000000000
+      inherited Button1: TButton
+        Size.Height = 49.000000000000000000
+      end
+    end
+    inherited Controller_Title: TLayout
+      Size.Width = 480.000000000000000000
+      inherited Rectangle16: TRectangle
+        Position.X = 248.000000000000000000
+        inherited Label13: TLabel
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+      end
+    end
+    inherited Page_Login: TLayout
+      inherited Layout1: TLayout
+        inherited Label1: TLabel
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+      end
+      inherited Layout3: TLayout
+        inherited Layout4: TLayout
+          inherited Layout5: TLayout
+            inherited Rectangle5: TRectangle
+              Corners = [TopLeft, TopRight, BottomRight]
+              inherited Label2: TLabel
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+          end
+          inherited Layout6: TLayout
+            inherited Rectangle6: TRectangle
+              Corners = [TopLeft, TopRight, BottomRight]
+              inherited Label3: TLabel
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+          end
+        end
+      end
+    end
+    inherited Page_AccountInfo: TLayout
+      Size.Width = 480.000000000000000000
+      Size.Height = 711.000000000000000000
+      inherited Layout23: TLayout
+        Size.Width = 480.000000000000000000
+        inherited Layout22: TLayout
+          Size.Width = 480.000000000000000000
+          inherited Rectangle24: TRectangle
+            Margins.Right = 10.000000000000000000
+          end
+          inherited Rectangle25: TRectangle
+            Position.X = 420.000000000000000000
+          end
+          inherited Layout24: TLayout
+            Position.X = 100.000000000000000000
+            Size.Width = 300.000000000000000000
+            inherited Label16: TLabel
+              Size.Width = 300.000000000000000000
+            end
+            inherited Label15: TLabel
+              Size.Width = 300.000000000000000000
+            end
+          end
+        end
+        inherited Rectangle26: TRectangle
+          Size.Width = 480.000000000000000000
+        end
+        inherited Layout25: TLayout
+          Size.Width = 480.000000000000000000
+          inherited Layout27: TLayout
+            Size.Width = 480.000000000000000000
+            inherited Label18: TLabel
+              Margins.Left = 10.000000000000000000
+              Size.Width = 434.000000000000000000
+            end
+          end
+          inherited Layout28: TLayout
+            Size.Width = 480.000000000000000000
+            inherited Label19: TLabel
+              Size.Width = 444.000000000000000000
+            end
+          end
+        end
+        inherited Layout26: TLayout
+          Size.Width = 480.000000000000000000
+          inherited Button2: TButton
+            Position.X = 432.000000000000000000
+            Size.Height = 55.000000000000000000
+          end
+          inherited Label17: TLabel
+            Margins.Left = 10.000000000000000000
+            Size.Width = 370.000000000000000000
+          end
+        end
+      end
+    end
+    inherited Page_LoginInfo: TLayout
+      inherited Layout8: TLayout
+        inherited Label4: TLabel
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+      end
+      inherited Layout9: TLayout
+        inherited Layout10: TLayout
+          inherited Layout11: TLayout
+            inherited Rectangle8: TRectangle
+              inherited Label5: TLabel
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+          end
+          inherited Layout12: TLayout
+            inherited Rectangle11: TRectangle
+              inherited Edit1: TEdit
+                Size.Height = 38.000000000000000000
+              end
+            end
+          end
+          inherited Layout13: TLayout
+            inherited Label7: TLabel
+              Margins.Top = 10.000000000000000000
+              Position.Y = 10.000000000000000000
+            end
+            inherited Rectangle12: TRectangle
+              Position.Y = 33.000000000000000000
+              inherited Edit2: TEdit
+                Size.Height = 38.000000000000000000
+              end
+            end
+          end
+        end
+      end
+    end
+    inherited Page_AccountEdit: TLayout
+      Size.Width = 480.000000000000000000
+      Size.Height = 711.000000000000000000
+      inherited Layout30: TLayout
+        Size.Width = 480.000000000000000000
+        inherited Layout31: TLayout
+          Size.Width = 480.000000000000000000
+          inherited Layout32: TLayout
+            Size.Width = 390.000000000000000000
+            inherited Label20: TLabel
+              Size.Width = 390.000000000000000000
+            end
+            inherited Label21: TLabel
+              Size.Width = 390.000000000000000000
+            end
+          end
+        end
+        inherited Rectangle32: TRectangle
+          Size.Width = 480.000000000000000000
+        end
+        inherited Rectangle31: TRectangle
+          Size.Width = 480.000000000000000000
+        end
+        inherited Layout34: TLayout
+          Size.Width = 440.000000000000000000
+          inherited Label23: TLabel
+            Size.Width = 440.000000000000000000
+          end
+          inherited Rectangle34: TRectangle
+            Size.Width = 440.000000000000000000
+            inherited Edit4: TEdit
+              Size.Width = 434.000000000000000000
+              Size.Height = 36.000000000000000000
+            end
+          end
+        end
+        inherited Layout33: TLayout
+          Size.Width = 440.000000000000000000
+          inherited Label22: TLabel
+            Size.Width = 440.000000000000000000
+          end
+          inherited Rectangle33: TRectangle
+            Size.Width = 440.000000000000000000
+            inherited Edit3: TEdit
+              Size.Width = 434.000000000000000000
+              Size.Height = 36.000000000000000000
+            end
+          end
+        end
+        inherited Rectangle35: TRectangle
+          Size.Width = 480.000000000000000000
+        end
+        inherited Layout35: TLayout
+          Size.Width = 440.000000000000000000
+          inherited Label24: TLabel
+            Size.Width = 440.000000000000000000
+          end
+          inherited Rectangle36: TRectangle
+            Size.Width = 440.000000000000000000
+            inherited Edit5: TEdit
+              Size.Width = 434.000000000000000000
+              Size.Height = 36.000000000000000000
+            end
+          end
+        end
+        inherited Layout36: TLayout
+          Size.Width = 440.000000000000000000
+          inherited Label25: TLabel
+            Size.Width = 440.000000000000000000
+          end
+          inherited Rectangle37: TRectangle
+            Size.Width = 440.000000000000000000
+            inherited Edit6: TEdit
+              Size.Width = 434.000000000000000000
+              Size.Height = 36.000000000000000000
+            end
+          end
+        end
+        inherited Rectangle38: TRectangle
+          Size.Width = 480.000000000000000000
+        end
+        inherited Rectangle39: TRectangle
+          Size.Width = 480.000000000000000000
+        end
+        inherited Layout37: TLayout
+          Size.Width = 440.000000000000000000
+          inherited Label26: TLabel
+            Size.Width = 440.000000000000000000
+          end
+          inherited Rectangle40: TRectangle
+            Size.Width = 440.000000000000000000
+            inherited Edit7: TEdit
+              Size.Width = 434.000000000000000000
+              Size.Height = 36.000000000000000000
+            end
+          end
+        end
+      end
+    end
+    inherited Page_Matches: TLayout
+      Size.Width = 480.000000000000000000
+      Size.Height = 711.000000000000000000
+      inherited MatchList: TVertScrollBox
+        Size.Width = 480.000000000000000000
+        Size.Height = 651.000000000000000000
+        Viewport.Width = 400.000000000000000000
+        Viewport.Height = 582.000000000000000000
+      end
+    end
+    inherited Page_MatchesAdd: TLayout
+      Size.Width = 480.000000000000000000
+      Size.Height = 711.000000000000000000
+      inherited Label27: TLabel
+        Size.Width = 440.000000000000000000
+      end
+      inherited Label28: TLabel
+        Size.Width = 440.000000000000000000
+      end
+      inherited Label29: TLabel
+        Size.Width = 440.000000000000000000
+      end
+      inherited DateEdit1: TDateEdit
+        Size.Width = 440.000000000000000000
+      end
+      inherited TimeEdit1: TTimeEdit
+        Time = 0.824463275462962900
+        Size.Width = 440.000000000000000000
+      end
+      inherited Layout47: TLayout
+        Size.Width = 480.000000000000000000
+        inherited Edit12: TEdit
+          Position.Y = 3.000000000000000000
+          Size.Width = 440.000000000000000000
+        end
+        inherited Label31: TLabel
+          Position.Y = 45.000000000000000000
+          Size.Width = 440.000000000000000000
+        end
+      end
+      inherited ComboBox1: TComboBox
+        Size.Width = 440.000000000000000000
+      end
+      inherited ComboBox2: TComboBox
+        Size.Width = 440.000000000000000000
+      end
+    end
+    inherited Page_MatchesView: TLayout
+      Size.Width = 480.000000000000000000
+      Size.Height = 711.000000000000000000
+      inherited Rectangle44: TRectangle
+        Size.Width = 480.000000000000000000
+        inherited Rectangle46: TRectangle
+          Margins.Left = 15.000000000000000000
+          Position.X = 375.000000000000000000
+        end
+        inherited Label9: TLabel
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        inherited Rectangle63: TRectangle
+          Margins.Left = 20.000000000000000000
+          Margins.Bottom = 50.000000000000000000
+          inherited Label47: TLabel
+            Margins.Right = -20.000000000000000000
+            Margins.Bottom = -15.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+      end
+      inherited Rectangle47: TRectangle
+        Size.Width = 480.000000000000000000
+        inherited Label14: TLabel
+          Position.X = 330.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        inherited Label33: TLabel
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+      end
+      inherited Layout41: TLayout
+        Size.Width = 480.000000000000000000
+        inherited Rectangle48: TRectangle
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Position.Y = 5.000000000000000000
+          Size.Height = 90.000000000000000000
+          Stroke.Kind = None
+          inherited Rectangle49: TRectangle
+            Margins.Bottom = 25.000000000000000000
+            inherited Label34: TLabel
+              TextSettings.Font.Size = 14.000000000000000000
+              inherited Label35: TLabel
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+          end
+        end
+        inherited Rectangle50: TRectangle
+          Margins.Left = 5.000000000000000000
+          Position.X = 335.000000000000000000
+          inherited Rectangle51: TRectangle
+            inherited Label37: TLabel
+              inherited Label38: TLabel
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+          end
+        end
+        inherited Layout49: TLayout
+          Position.X = 150.000000000000000000
+          Size.Width = 180.000000000000000000
+          inherited Circle4: TCircle
+            inherited Label36: TLabel
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+            end
+          end
+          inherited Label30: TLabel
+            Size.Width = 180.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+          inherited Label32: TLabel
+            Size.Width = 180.000000000000000000
+          end
+        end
+      end
+      inherited Rectangle52: TRectangle
+        Size.Width = 480.000000000000000000
+        inherited Label42: TLabel
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+      end
+      inherited Label43: TLabel
+        Size.Width = 440.000000000000000000
+      end
+      inherited Layout48: TLayout
+        Size.Width = 480.000000000000000000
+        inherited Rectangle54: TRectangle
+          Size.Width = 480.000000000000000000
+          inherited Label39: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+        inherited Button5: TButton
+          Position.Y = 35.000000000000000000
+          Size.Height = 46.000000000000000000
+        end
+        inherited Button10: TButton
+          Position.X = 433.000000000000000000
+          Position.Y = 35.000000000000000000
+          Size.Height = 46.000000000000000000
+        end
+        inherited Layout50: TLayout
+          Position.X = 188.000000000000000000
+          inherited Button11: TButton
+            Size.Height = 46.000000000000000000
+          end
+          inherited Button7: TButton
+            Size.Height = 46.000000000000000000
+          end
+        end
+        inherited ComboBox3: TComboBox
+          Position.Y = 35.000000000000000000
+          Size.Height = 46.000000000000000000
+        end
+        inherited ComboBox4: TComboBox
+          Position.X = 313.000000000000000000
+          Position.Y = 35.000000000000000000
+          Size.Height = 46.000000000000000000
+        end
+      end
+      inherited Rectangle62: TRectangle
+        Size.Width = 480.000000000000000000
+        inherited Label41: TLabel
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+      end
+      inherited GoalsList: TVertScrollBox
+        Size.Width = 480.000000000000000000
+        Viewport.Width = 50.000000000000000000
+        Viewport.Height = 50.000000000000000000
+      end
+    end
+    inherited Page_Favorites: TLayout
+      inherited FavoriteMatchList: TVertScrollBox
+        Viewport.Width = 400.000000000000000000
+        Viewport.Height = 522.000000000000000000
+      end
+    end
+    inherited Page_NewsView: TLayout
+      Size.Width = 480.000000000000000000
+      Size.Height = 711.000000000000000000
+      inherited Layout46: TLayout
+        Size.Width = 480.000000000000000000
+        inherited Rectangle53: TRectangle
+          Fill.Gradient.StartPosition.X = 0.211324885487556500
+          Size.Width = 480.000000000000000000
+        end
+        inherited TitleNewsBox: TLabel
+          Size.Width = 440.000000000000000000
+        end
+        inherited Button9: TButton
+          Position.X = 216.000000000000000000
+          Position.Y = 37.000000000000000000
+        end
+      end
+      inherited Rectangle61: TRectangle
+        Size.Width = 480.000000000000000000
+        inherited Label63: TLabel
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+      end
+      inherited VertScrollBox1: TVertScrollBox
+        Size.Width = 480.000000000000000000
+        Size.Height = 573.000000000000000000
+        Viewport.Width = 50.000000000000000000
+        Viewport.Height = 50.000000000000000000
+      end
+    end
+    inherited Page_News: TLayout
+      Size.Width = 480.000000000000000000
+      Size.Height = 711.000000000000000000
+      inherited NewsList: TVertScrollBox
+        Size.Width = 480.000000000000000000
+        Size.Height = 651.000000000000000000
+        Viewport.Width = 400.000000000000000000
+        Viewport.Height = 522.000000000000000000
+      end
+    end
+    inherited Page_Menu: TLayout
+      Size.Width = 480.000000000000000000
+      Size.Height = 711.000000000000000000
+      inherited Layout16: TLayout
+        Size.Width = 480.000000000000000000
+        Size.Height = 611.000000000000000000
+        inherited VertScrollBox2: TVertScrollBox
+          Size.Width = 480.000000000000000000
+          Size.Height = 611.000000000000000000
+          Viewport.Width = 50.000000000000000000
+          Viewport.Height = 50.000000000000000000
+        end
+      end
+    end
+    inherited Page_ClubView: TLayout
+      Size.Width = 480.000000000000000000
+      Size.Height = 711.000000000000000000
+      inherited Rectangle57: TRectangle
+        Size.Width = 480.000000000000000000
+        inherited ItemClubTitleMain: TLabel
+          Size.Width = 340.000000000000000000
+        end
+      end
+      inherited Rectangle66: TRectangle
+        Size.Width = 480.000000000000000000
+        inherited Label61: TLabel
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+      end
+      inherited Layout29: TLayout
+        Size.Width = 480.000000000000000000
+        inherited Rectangle67: TRectangle
+          Size.Width = 480.000000000000000000
+          inherited Label64: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+        inherited Button14: TButton
+          Position.X = 433.000000000000000000
+          Position.Y = 35.000000000000000000
+          Size.Height = 46.000000000000000000
+        end
+        inherited Button16: TButton
+          Size.Height = 46.000000000000000000
+        end
+      end
+      inherited ClubMembersList: TVertScrollBox
+        Size.Width = 480.000000000000000000
+        Size.Height = 490.000000000000000000
+        Viewport.Width = 500.000000000000000000
+        Viewport.Height = 522.000000000000000000
+      end
+    end
+    inherited Page_Clubs: TLayout
+      inherited ClubList: TVertScrollBox
+        Viewport.Width = 500.000000000000000000
+        Viewport.Height = 522.000000000000000000
+      end
+    end
+    inherited Page_AdminMail: TLayout
+      inherited AdminMailList: TVertScrollBox
+        Margins.Top = 60.000000000000000000
+        Size.Height = 445.000000000000000000
+        Viewport.Width = 500.000000000000000000
+        Viewport.Height = 522.000000000000000000
+      end
+    end
+    inherited Page_NewsAdd: TLayout
+      inherited Memo1: TMemo
+        Position.Y = 133.000000000000000000
+        Viewport.Width = 466.000000000000000000
+        Viewport.Height = 164.000000000000000000
+      end
+      inherited Label45: TLabel
+        Position.Y = 307.000000000000000000
+      end
+    end
+  end
+end
